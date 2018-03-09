@@ -40,7 +40,7 @@ cdroberson/pipeline-repo:
     - npm install
 
   Env:
-    - PORT: 80
+    - PORT: 3000
 
   Exec:
     - /usr/bin/nodejs app.js
